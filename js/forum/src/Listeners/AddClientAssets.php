@@ -36,8 +36,8 @@ class AddClientAssets
 
         if ($event->isForum()) {
             $event->addAssets([
+                __DIR__.'/../../js/forum/dist/extension.js',
 
-                __DIR__.'/../../less/app.less',
             ]);
             $event->addBootstrapper('extum/flarum-ext-old-title/main');
         }
