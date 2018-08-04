@@ -1,5 +1,5 @@
 'use strict';
-System.register('extum/flarum-ext-old-title/main', ['flarum/app'], function (_export, _context) {
+System.register('extum/flarum-ext-time-machine/main', ['flarum/app'], function (_export, _context) {
   "use strict";
   var app;
   return {
@@ -7,8 +7,7 @@ System.register('extum/flarum-ext-old-title/main', ['flarum/app'], function (_ex
       app = _flarumApp.default;
     }],
     execute: function () {
-      app.initializers.add('extum/flarum-ext-old-title', function () {
-        $('head').prepend('<style>article.DiscussionRenamedPost span[title]::before{display:block;content:attr(title)}</style>');
+      app.initializers.add('extum/flarum-ext-time-machine', function () {
       });
     }
   };

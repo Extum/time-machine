@@ -1,7 +1,7 @@
 var gulp = require('flarum-gulp');
 gulp({
   modules: {
-    'extum/flarum-ext-old-title': [
+    'extum/flarum-ext-time-machine': [
       'src/**/*.js',
     ]
   }

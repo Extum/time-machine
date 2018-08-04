@@ -39,7 +39,7 @@ class AddClientAssets
                 __DIR__.'/../../js/forum/dist/extension.js',
 
             ]);
-            $event->addBootstrapper('extum/flarum-ext-old-title/main');
+            $event->addBootstrapper('extum/flarum-ext-time-machine/main');
         }
     }
 
