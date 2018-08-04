@@ -1,0 +1,37 @@
+{
+  "name": "extum/flarum-ext-time-machine",
+  "description": "Modify the time of your posts, user registrations and more by travelling back in time.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta-7"
+  },
+  "authors": [
+    {
+      "name": "Arda Cebi",
+      "email": "ardacebi1@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Extum\\TimeMachine\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Time Machine",
+      "icon": {
+          "name": "far fa-clock",
+           "backgroundColor": "#ffcc00",
+           "color": "#000"
+}
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
