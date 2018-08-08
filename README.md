@@ -14,6 +14,15 @@ Edit dates and times around your Flarum forum.
 
 ## Installation
 
+Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
+
+```bash
+composer require extum/flarum-time-machine
 ```
-composer require extum/flarum-ext-time-machine
+
+## Updating
+
+```bash
+composer require extum/flarum-time-machine
+php flarum cache:clear
 ```
